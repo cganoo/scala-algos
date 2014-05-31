@@ -50,3 +50,5 @@ libraryDependencies ++= Seq(
  * Increase the time between polling for file changes when using continuous execution
  * */
 pollInterval := 5000
+
+tutSettings

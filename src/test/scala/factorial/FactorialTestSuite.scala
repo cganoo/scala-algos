@@ -6,7 +6,7 @@ import org.junit.runner.RunWith
 import org.scalatest.junit.JUnitRunner
 
 @RunWith(classOf[JUnitRunner])
-class FactorialTestSuite extends FunSuite {
+class FactorialSuite extends FunSuite {
   import Factorial.factorialNTR
 
   test("factorialNTR: Factorial of 0 is 1") {
